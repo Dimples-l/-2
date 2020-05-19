@@ -58,8 +58,9 @@
 <script>
 export default {
   data(){
-    return {}
+    return {
+      msg:"",
+    }
   }
 }
-
 </script>
