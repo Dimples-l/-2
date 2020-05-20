@@ -4,7 +4,7 @@
     <div class="nav1">
       <span><router-link to="/">首页</router-link></span>
       <span><router-link to="">登录</router-link></span>
-      <span><router-link to="">注册</router-link></span>
+      <span><router-link to="/register">注册</router-link></span>
       <span><router-link to="">收藏</router-link></span>
       <span><router-link to="">我的</router-link></span>
     </div>
@@ -12,9 +12,10 @@
       <input type="text" name="search" id="search">
       <button>搜索</button>
     </div>
+      <router-view />
   </div>
 
-  <!-- <router-view /> -->
+
   
 </template>
 
